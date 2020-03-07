@@ -1,4 +1,4 @@
-asn1crypto==1.2.0
+git asn1crypto==1.2.0
 attrs==19.3.0
 autopep8==1.5
 backcall==0.1.0
