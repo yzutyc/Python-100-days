@@ -45,11 +45,11 @@ row = int(input('请输入行数: '))
 #         print('*', end='')
 #     print()
 
-for i in range(1, row + 1):
-    print('*' * i, sep='')
+for i in range(row):
+    print('*' * (i + 1), sep='')
 
-for i in range(1, row + 1):
-    print(' ' * (row - i), '*' * i, sep='')
+for i in range(row):
+    print(' ' * (row - 1 - i), '*' * (i + 1), sep='')
 
-for i in range(1, row + 1):
-    print(' ' * (row - i), '*' * (2 * i - 1), sep='')
+for i in range(row):
+    print(' ' * (row - 1 - i), '*' * (2 * i + 1), sep='')
