@@ -10,7 +10,7 @@ def draw_rectangle(x, y, width, height):
     turtle.pencolor('red')
     turtle.fillcolor('red')
     turtle.begin_fill()
-    for i in range(2):
+    for _ in range(2):
         turtle.forward(width)
         turtle.left(90)
         turtle.forward(height)
