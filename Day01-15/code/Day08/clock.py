@@ -45,7 +45,8 @@ if __name__ == '__main__':
     # clock = Clock(hour=10, minute=5, second=58)
     clock = Clock()
     while True:
-        os.system('clear')
+        # os.system('clear')
+        os.system('cls')
         print(clock.show())
         time.sleep(1)
         clock.run()
